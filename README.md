@@ -6,9 +6,9 @@ This project builds a [docker](http://docker.io/) container for running [transmi
 Try it out
 ----------
 
-Change transmission-daemon config
+Change transmission-daemon config:
 
-    docker run -i -t wbouzane/transmission-daemon vi /etc/transmission/settings.json
+    docker run -i -t wbouzane/transmission-daemon vi /etc/transmission-daemon/settings.json
 
 
 Run the container:
